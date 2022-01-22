@@ -1,0 +1,111 @@
+<div class="question4" style="background: #666666; height: 500px; width: 500px; margin-left: 700px; color: white;">
+
+ <img src='1.jpg' style= "width: 500px; height: 250px;">
+
+ <h1>Как зовут сестру ГГ?</h1>
+
+ <div class="variant1" style="background: #fa5f5f; width: 500px; height: 50px; "> 
+ Аюми
+ </div>
+ <div class="variant2"style="background: #fa5f5f; width: 500px; height: 50px; "> 
+ Нао
+ </div>
+ <div class="variant3"style="background: #fa5f5f; width: 500px; height: 50px; ">
+ Изуми
+ </div>
+
+</div>
+
+<div class='question5' style="background: #666666; height: 500px; width: 500px; margin-left: 700px; color: white; display: none;">
+
+<iframe width="500" height="315" src="https://www.youtube.com/embed/OvpEjhRkyDI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+ <h1>Из-за чего у ГГ была депрессия</h1>
+
+ <div class="variant1" style="background: #fa5f5f; width: 500px; height: 50px; ">
+ Смерть сестры
+ </div>
+ <div class="variant2" style="background: #fa5f5f; width: 500px; height: 50px; ">
+ Смерть друга
+ </div>
+ <div class="variant3" style="background: #fa5f5f; width: 500px; height: 50px; ">
+ Смерть подруги
+ </div>
+
+</div>
+
+<div class="question6" style="background: #666666; height: 500px; width: 500px; margin-left: 700px; color: white; display: none">
+
+<img src='de.jpg' style= "width: 500px; height: 250px;">
+
+ <h1>Как спасли ГГ от депрессии?</h1>
+
+ <div class="variant1" style="background: #fa5f5f; width: 500px; height: 50px; ">
+ Наорали
+ </div>
+ <div class="variant2" style="background: #fa5f5f; width: 500px; height: 50px; ">
+ Дали по морде
+ </div>
+ <div class="variant3" style="background: #fa5f5f; width: 500px; height: 50px; ">
+ Наруто-терапия
+ </div>
+
+</div>
+
+<div class="question1" style="background: #666666; height: 480px; width:500px; margin-left: 700px; display: none;">
+    <div style="display: flex;">
+         <img src = "Screenshot_531.png" style="width: 250px;height: 200px;">
+     <img src = "Screenshot_532.png" style="width: 250px;height: 200px;">   
+    </div>
+    <div style="background:black;">
+        <h1 style="color:white">кто на фотке?</h1>
+    </div>
+    <div class="variant1" style="background: #781d37; width: 500px; height: 50px;">
+       <h1>шерлок</h1>
+    </div>
+    <div class="variant2" style="background: #781d37; width: 500px; height: 50px;">
+            <h1>Ю</h1>
+    </div>
+    <div class="variant3" style="background: #781d37; width: 500px; height: 50px;">
+            <h1>Максим</h1>
+     </div>   
+</div>
+
+<div  class="question3" style="background: black; height: 100px; width:500px; margin-left: 700px; display: none">
+    <h1 style="color: white">как умерла сестра главного героя?</h1>
+    <div class="variant1" style="background: #781d37; width: 500px; height: 50px;">
+        <h1> молнии</h1>
+    </div>
+    <div class="variant2" style="background: #781d37; width: 500px; height: 50px;">
+       <h1>из-за обвала камней</h1>
+    </div>
+    <div class="variant3" style="background: #781d37; width: 500px; height: 50px;">
+        <h1>словил пулю во время войны</h1>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="https://dl.dropbox.com/s/2is2rmxt9120tiw/script.js"></script>
+<script>
+    find("question4 variant1").click("show","question5", "правильно");
+    find("question4 variant2").click("alert","неправильно");
+    find("question4 variant3").click("alert","неправильно");
+
+    find("question5 variant1").click("show","question6", "правильно");
+    find("question5 variant2").click("alert","неправильно");
+    find("question5 variant3").click("alert","неправильно");
+
+    find("question6 variant1").click("show","question1", "правильно");
+    find("question6 variant2").click("show","question1", "правильно");
+    find("question6 variant3").click("show","question1", "правильно");
+    
+    find("question1 variant1").click("alert","неправильно");
+    find("question1 variant2").click("show","question2", "правильно");
+    find("question1 variant3").click("alert", "правильно");
+
+    find("question2 variant1").click("alert","неправильно");
+    find("question2 variant2").click("alert","неправильно");
+    find("question2 variant3").click("show","question3", "правильно");
+
+    
+</script>
